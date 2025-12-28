@@ -20,6 +20,7 @@ body {
     padding: 0 20px;
 }
 
+
 /* Color Variables */
 :root {
     --primary: #FF6B8B;
@@ -463,4 +464,16 @@ footer {
     .section-title {
         font-size: 2rem;
     }
+}
+
+/* Add to your style.css for better styling of the developer link */
+.developer-link {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.developer-link:hover {
+    color: white;
+    text-decoration: underline;
 }
